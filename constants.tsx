@@ -1,0 +1,79 @@
+
+import { Category, Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'f1',
+    name: 'Ayam Segar (H-1)',
+    category: Category.FRESH,
+    description: 'Protein hewani segar langsung dari peternak lokal Kebayoran Lama.',
+    price: 35000,
+    unit: 'kg',
+    image: 'https://picsum.photos/seed/chicken/400/300'
+  },
+  {
+    id: 'f2',
+    name: 'Telur Ayam Negeri',
+    category: Category.FRESH,
+    description: 'Telur segar pilihan harian untuk kebutuhan protein siswa.',
+    price: 28000,
+    unit: 'kg',
+    image: 'https://picsum.photos/seed/eggs/400/300'
+  },
+  {
+    id: 's1',
+    name: 'Lemper Ayam Premium',
+    category: Category.SNACKS,
+    description: 'Beras ketan rendah glikemik dengan isian ayam melimpah. Non-UPF.',
+    price: 5000,
+    unit: 'pcs',
+    image: 'https://picsum.photos/seed/lemper/400/300',
+    isPopular: true
+  },
+  {
+    id: 's2',
+    name: 'Nagasari Pisang',
+    category: Category.SNACKS,
+    description: 'Cemilan kukus sehat tanpa pengawet buatan. Tradisional & Higienis.',
+    price: 4000,
+    unit: 'pcs',
+    image: 'https://picsum.photos/seed/nagasari/400/300'
+  },
+  {
+    id: 's3',
+    name: 'Bubur Kacang Hijau',
+    category: Category.SNACKS,
+    description: 'Sumber protein nabati dan serat. Gula dan santan dibatasi.',
+    price: 8000,
+    unit: 'cup',
+    image: 'https://picsum.photos/seed/mungbean/400/300'
+  },
+  {
+    id: 'd1',
+    name: 'Abon Sapi Fortifikasi',
+    category: Category.DRY,
+    description: 'Olahan kering tahan simpan dengan tambahan nutrisi mikro.',
+    price: 45000,
+    unit: '250g',
+    image: 'https://picsum.photos/seed/abon/400/300',
+    isPopular: true
+  },
+  {
+    id: 'd2',
+    name: 'Dendeng Ikan',
+    category: Category.DRY,
+    description: 'Tinggi protein, diolah secara higienis untuk masa libur sekolah.',
+    price: 30000,
+    unit: '200g',
+    image: 'https://picsum.photos/seed/dendeng/400/300'
+  }
+];
+
+export const BUSINESS_INFO = {
+  name: 'UD Mitra Gizi Lokal Mandiri',
+  address: 'Kompleks TVRI Jalan Audio No 93, Kebayoran Lama, Jakarta Selatan',
+  whatsapp: '087771914285',
+  email: 'impresionist@gmail.com',
+  nib: '0601260088111',
+  tagline: 'Nutrisi Terintegrasi, Menguatkan Generasi'
+};

@@ -1,0 +1,7 @@
+{
+  "name": "Mitra Gizi Lokal Mandiri - E-Commerce",
+  "description": "An integrated nutrition supply chain platform for the 'Makanan Bergizi Gratis' program, featuring fresh food aggregation, healthy snacks, and fortified dry goods.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
