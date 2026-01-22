@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
 export const BUSINESS_INFO = {
   name: 'UD Mitra Gizi Lokal Mandiri',
   address: 'Kompleks TVRI Jalan Audio No 93, Kebayoran Lama, Jakarta Selatan',
-  whatsapp: '087771914285',
+  whatsapp: '6287771914285', // International format: 62 + number without leading 0
   email: 'impresionist@gmail.com',
   nib: '0601260088111',
   tagline: 'Nutrisi Terintegrasi, Menguatkan Generasi'
